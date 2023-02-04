@@ -40,3 +40,28 @@ for(let i=0;i<arr.length;i++){
 }
 console.log(arr);
 ```
+### remove duplicate object from array[while you know the property name]
+
+```javascript
+const array = [
+  { id: 1, name: "john" },
+  { id: 1, name: "john" },
+  { id: 2, name: "mony" },
+  { id: 2, name: "tony" },
+  { id: 3, name: "jac" },
+  { id: 4, name: "tom" },
+  { id: 4, name: "tom" },
+  { id: 5, name: "tommy" },
+  { id: 6, name: "jick" },
+  { id: 6, name: "moni" },
+];
+let newArr = array.reduce((finalArr,current)=>{
+    let tempOb = finalArr.find((item)=> item.id === current.id && item.name === current.name)
+    if(tempOb){
+      return finalArr;
+    }else{
+      return finalArr.concat(current)
+    } 
+},[])
+console.log(newArr);
+```
