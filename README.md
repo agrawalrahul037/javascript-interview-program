@@ -65,3 +65,18 @@ let newArr = array.reduce((finalArr,current)=>{
 },[])
 console.log(newArr);
 ```
+
+### check number is prime or not, it will return true if number is prime
+
+```javascript
+function primeN(num){
+  let prime = (num===1)?false:true;
+  for(let i=2;i<num;i++){
+    if(num%i===0){
+      prime = false
+    }
+  }
+  return prime;
+}
+console.log(primeN(7));
+```
