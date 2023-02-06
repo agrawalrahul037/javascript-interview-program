@@ -80,3 +80,24 @@ function primeN(num){
 }
 console.log(primeN(7));
 ```
+
+### list of prime number between 1 to 100
+
+```javascript
+let finalArray = [];
+function primeN(){
+  for(let i=2;i<100;i++){
+    let prime = true;
+    for(let j=2;j<i;j++){
+      if(i%j===0){
+         prime = false
+      }
+    }
+    if(prime){
+      finalArray.push(i)
+    }
+  }
+  return finalArray;
+}
+console.log(primeN());
+```
