@@ -5,7 +5,7 @@
 | No. | Questions |
 | --- | --------- |
 |   | **important interview programs** |
-|6  | Swap two numbers without using third variable?(#What-is-JavaScript) |
+|6  | Swap two numbers without using third variable?(#Swap-two-numbers-without-using-third-variable) |
 
 ### String sorting
 
