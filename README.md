@@ -5,6 +5,11 @@
 | No. | Questions |
 | --- | --------- |
 |   | **important interview programs** |
+|6  | [String sorting?](#String-sorting) |
+|6  | [Sort Object of employee based on salary basis?](#Sort-Object-of-employee-based-on-salary-basis) |
+|6  | [remove duplicate object from array?](#remove-duplicate-object-from-array) |
+|6  | [Swap two numbers without using third variable?](#Swap-two-numbers-without-using-third-variable) |
+|6  | [Swap two numbers without using third variable?](#Swap-two-numbers-without-using-third-variable) |
 |6  | [Swap two numbers without using third variable?](#Swap-two-numbers-without-using-third-variable) |
 
 ### String sorting
