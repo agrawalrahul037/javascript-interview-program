@@ -5,14 +5,14 @@
 | No. | Questions |
 | --- | --------- |
 |   | **important interview programs** |
-|6  | [String sorting?](#String-sorting) |
-|6  | [Sort Object of employee based on salary basis?](#Sort-Object-of-employee-based-on-salary-basis) |
-|6  | [remove duplicate object from array?](#remove-duplicate-object-from-array) |
-|6  | [Swap two numbers without using third variable?](#Swap-two-numbers-without-using-third-variable) |
-|6  | [Swap two numbers without using third variable?](#Swap-two-numbers-without-using-third-variable) |
+|1  | [String sorting?](#String-sorting) |
+|2  | [Sort Object of employee based on salary basis?](#Sort-Object-of-employee-based-on-salary-basis) |
+|3  | [remove duplicate object from array?](#remove-duplicate-object-from-array) |
+|4  | [check number is prime or not?](#check-number-is-prime-or-not) |
+|5  | [list of prime number between 1 to 100?](#list-of-prime-number-between-1-to-100) |
 |6  | [Swap two numbers without using third variable?](#Swap-two-numbers-without-using-third-variable) |
 
-### String sorting
+1. ### String sorting
 
 ```javascript
 let str = "rahulagrawal";
@@ -29,7 +29,7 @@ for(let i=0;i<arr.length;i++){
 console.log(arr.join(""));
 ```
 
-### Sort Object of employee based on salary basis
+2. ### Sort Object of employee based on salary basis
 
 ```javascript
 const arr = [
@@ -50,7 +50,7 @@ for(let i=0;i<arr.length;i++){
 }
 console.log(arr);
 ```
-### remove duplicate object from array[while you know the property name]
+3. ### remove duplicate object from array[while you know the property name]
 
 ```javascript
 const array = [
@@ -76,8 +76,8 @@ let newArr = array.reduce((finalArr,current)=>{
 console.log(newArr);
 ```
 
-### check number is prime or not, it will return true if number is prime
-
+4. ### check number is prime or not
+    ### , it will return true if number is prime
 ```javascript
 function primeN(num){
   let prime = (num===1)?false:true;
@@ -91,7 +91,7 @@ function primeN(num){
 console.log(primeN(7));
 ```
 
-### list of prime number between 1 to 100
+5. ### list of prime number between 1 to 100
 
 ```javascript
 let finalArray = [];
