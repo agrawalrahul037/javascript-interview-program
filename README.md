@@ -1,6 +1,11 @@
 # javascript-interview-program
-important interview programs
 
+### Table of Contents
+
+| No. | Questions |
+| --- | --------- |
+|   | **important interview programs** |
+|6  | Swap two numbers without using third variable?](#What-is-JavaScript) |
 
 ### String sorting
 
@@ -101,7 +106,7 @@ function primeN(){
 }
 console.log(primeN());
 ```
-### Swap two numbers without using third variable
+6. ### Swap two numbers without using third variable
 ```javascript
 let a = 10;
 let b = 20;
