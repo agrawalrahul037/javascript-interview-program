@@ -144,7 +144,7 @@ for(let i=1;i<str.length;i++){
 }
 console.log(newStr)
 ```
-7.1 ### method 2: make first letter uppercase of every word of any string
+7.1. ### method 2: make first letter uppercase of every word of any string
 
 ```javascript
 let str = "my name is rahul";
