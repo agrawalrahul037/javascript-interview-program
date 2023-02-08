@@ -11,6 +11,8 @@
 |4  | [check number is prime or not?](#check-number-is-prime-or-not) |
 |5  | [list of prime number between 1 to 100?](#list-of-prime-number-between-1-to-100) |
 |6  | [Swap two numbers without using third variable?](#Swap-two-numbers-without-using-third-variable) |
+|7  | [method 1: make first letter uppercase of every word of any string?](#method-1-make-first-letter-uppercase-of-every-word-of-any-string) |
+|7.1| [method 2: make first letter uppercase of every word of any string?](#method-2-make-first-letter-uppercase-of-every-word-of-any-string) |
 
 1. ### String sorting
 
@@ -122,4 +124,23 @@ a = a-b;
 
 console.log(a);
 console.log(b);
+```
+7. ### method 1: make first letter uppercase of every word of any string
+
+```javascript
+let str = "my name is rahul";
+let newStr = "";
+let spaceIndex;
+//newStr = newStr.concat(str[0].toUpperCase());
+newStr = newStr + str[0].toUpperCase();         //without using concat method
+for(let i=1;i<str.length;i++){
+   if(str[i]=== " "){
+     spaceIndex = i;
+   }
+   if(i === spaceIndex+1)
+     newStr = newStr.concat(str[i].toUpperCase());
+   else
+     newStr = newStr.concat(str[i]);
+}
+console.log(newStr)
 ```
