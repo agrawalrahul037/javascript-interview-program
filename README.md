@@ -144,3 +144,21 @@ for(let i=1;i<str.length;i++){
 }
 console.log(newStr)
 ```
+7.1 ### method 2: make first letter uppercase of every word of any string
+
+```javascript
+let str = "my name is rahul";
+let newStr = "";
+let splitedArray = str.split(" ");
+for(let i=0;i<splitedArray.length;i++){
+  let tempStr = splitedArray[i];
+  for(let j=0;j<tempStr.length;j++){
+    if(j===0)
+     newStr = newStr + tempStr[j].toUpperCase(); 
+    else
+    newStr = newStr + tempStr[j];
+  }
+  newStr = newStr + " ";
+}
+console.log(newStr)
+```
