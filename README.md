@@ -13,6 +13,7 @@
 |6  | [Swap two numbers without using third variable?](#Swap-two-numbers-without-using-third-variable) |
 |7  | [method 1: make first letter uppercase of every word of any string?](#method-1-make-first-letter-uppercase-of-every-word-of-any-string) |
 |7.1| [method 2: make first letter uppercase of every word of any string?](#method-2-make-first-letter-uppercase-of-every-word-of-any-string) |
+|8  | [simple promise program?](#simple-promise-program) |
 
 1. ### String sorting
 
@@ -161,4 +162,20 @@ for(let i=0;i<splitedArray.length;i++){
   newStr = newStr + " ";
 }
 console.log(newStr)
+```
+8. ### simple promise program
+
+```javascript
+let testPromise = new Promise((resolve,reject)=>{
+  let age = 38;
+  if(age<35)
+  resolve("my age is less than 35")
+  else
+  reject("my age is greater than 35")
+})
+testPromise.then((success)=>{
+  console.log(success)
+}).catch((err)=>{
+  console.log(err)
+})
 ```
