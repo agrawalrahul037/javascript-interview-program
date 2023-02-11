@@ -14,6 +14,7 @@
 |7  | [method 1: make first letter uppercase of every word of any string?](#method-1-make-first-letter-uppercase-of-every-word-of-any-string) |
 |7.1| [method 2: make first letter uppercase of every word of any string?](#method-2-make-first-letter-uppercase-of-every-word-of-any-string) |
 |8  | [simple promise program?](#simple-promise-program) |
+|8  | [Inheritance in javascript ES5?](#Inheritance-in-javascript-ES5) |
 
 1. ### String sorting
 
@@ -178,4 +179,24 @@ testPromise.then((success)=>{
 }).catch((err)=>{
   console.log(err)
 })
+```
+### Inheritance in javascript ES5
+```javascript
+function parentC(){
+  this.name = "I am parent function"
+}
+parentC.prototype.parentInnerFunc = function(){
+  console.log("Inside parentInnerFunc")
+}
+function childC(){
+  this.name = "I am child function";
+  this.compName = "I am child Comp"
+  parentC.call(this)
+}
+
+childC.prototype = Object.create(parentC.prototype)
+let ob = new childC()
+console.log(ob.name)
+console.log(ob.compName)
+ob.parentInnerFunc()
 ```
