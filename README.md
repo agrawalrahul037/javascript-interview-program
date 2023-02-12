@@ -14,7 +14,8 @@
 |7  | [method 1: make first letter uppercase of every word of any string?](#method-1-make-first-letter-uppercase-of-every-word-of-any-string) |
 |7.1| [method 2: make first letter uppercase of every word of any string?](#method-2-make-first-letter-uppercase-of-every-word-of-any-string) |
 |8  | [simple promise program?](#simple-promise-program) |
-|8  | [Inheritance in javascript ES5?](#Inheritance-in-javascript-ES5) |
+|9  | [Inheritance in javascript ES5?](#Inheritance-in-javascript-ES5) |
+|10  | [chunked array?](#chunked-array) |
 
 1. ### String sorting
 
@@ -180,7 +181,7 @@ testPromise.then((success)=>{
   console.log(err)
 })
 ```
-### Inheritance in javascript ES5
+9. ### Inheritance in javascript ES5
 ```javascript
 function parentC(){
   this.name = "I am parent function"
@@ -199,4 +200,17 @@ let ob = new childC()
 console.log(ob.name)
 console.log(ob.compName)
 ob.parentInnerFunc()
+```
+10. ### chunked array
+
+```javascript
+let arr = [3,4,5,6,7,8,9,2,10,15,4];
+let chunkedArray = []
+function chunkedArrayFunc(n){
+  for(let i=0;i<arr.length;i+n){
+    chunkedArray.push(arr.splice(i,n))
+  }
+  return chunkedArray;
+}
+console.log(chunkedArrayFunc(6)); // number of chunking
 ```
