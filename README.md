@@ -16,6 +16,7 @@
 |8  | [simple promise program?](#simple-promise-program) |
 |9  | [Inheritance in javascript ES5?](#Inheritance-in-javascript-ES5) |
 |10  | [chunked array?](#chunked-array) |
+|11  | [make own concat function?](#make-own-concat-function) |
 
 1. ### String sorting
 
@@ -213,4 +214,17 @@ function chunkedArrayFunc(n){
   return chunkedArray;
 }
 console.log(chunkedArrayFunc(6)); // number of chunking
+```
+
+11. ### make own concat function
+
+```javascript
+function myConcat(){
+    let newStr = "";
+    for(let i=0;i<arguments.length;i++){
+      newStr = newStr + arguments[i];
+    }
+  return newStr;
+}
+console.log(myConcat('abc','xyz','fds'))
 ```
