@@ -18,6 +18,7 @@
 |9  | [Inheritance in javascript ES5?](#Inheritance-in-javascript-ES5) |
 |10  | [chunked array?](#chunked-array) |
 |11  | [make own concat function?](#make-own-concat-function) |
+|3  | [remove duplicate number from array?](#remove-duplicate-number-from-array) |
 
 1. ### String sorting
 
@@ -248,4 +249,16 @@ function myConcat(){
   return newStr;
 }
 console.log(myConcat('abc','xyz','fds'))
+```
+12. ### remove duplicate number from array
+
+```javascript
+let arr = [1,4,7,1,5,4]
+let newArr = []
+for(let i=0;i<arr.length;i++){
+  if(newArr.indexOf(arr[i])<0){
+    newArr.push(arr[i])
+  }
+}
+console.log(newArr)
 ```
