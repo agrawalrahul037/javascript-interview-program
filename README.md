@@ -12,8 +12,8 @@
 |5  | [list of prime number between 1 to 100?](#list-of-prime-number-between-1-to-100) |
 |6  | [Swap two numbers without using third variable?](#Swap-two-numbers-without-using-third-variable) |
 |7  | [method 1: make first letter uppercase of every word of any string?](#method-1-make-first-letter-uppercase-of-every-word-of-any-string) |
-|7.1| [method 2: make first letter uppercase of every word of any string?](#method-2-make-first-letter-uppercase-of-every-word-of-any-string) |
-|7.2| [method 3: make first letter uppercase of every word of any string?](#method-3-make-first-letter-uppercase-of-every-word-of-any-string) |
+|1  | [method 2: make first letter uppercase of every word of any string?](#method-2-make-first-letter-uppercase-of-every-word-of-any-string) |
+|2  | [method 3: make first letter uppercase of every word of any string?](#method-3-make-first-letter-uppercase-of-every-word-of-any-string) |
 |8  | [simple promise program?](#simple-promise-program) |
 |9  | [Inheritance in javascript ES5?](#Inheritance-in-javascript-ES5) |
 |10  | [chunked array?](#chunked-array) |
@@ -149,7 +149,7 @@ for(let i=1;i<str.length;i++){
 }
 console.log(newStr)
 ```
-7.1. ### method 2: make first letter uppercase of every word of any string
+1. ### method 2: make first letter uppercase of every word of any string
 
 ```javascript
 let str = "my name is rahul";
@@ -167,7 +167,7 @@ for(let i=0;i<splitedArray.length;i++){
 }
 console.log(newStr)
 ```
-7.2. ### method 3: make first letter uppercase of every word of any string
+2. ### method 3: make first letter uppercase of every word of any string
 
 ```javascript
 let str = 'my name is rahul';
